@@ -1,15 +1,26 @@
 # cli-rbg-light
 Xiaomi RGB light
 
+Включить устройство
 
-    python3 main.py on
+    python3 main.py strip on
 
-    python3 main.py off
+Выключить устройство
 
-    python3 main.py color 255 0 0
+    python3 main.py strip off
 
-    python3 main.py brig 50
+Установить цвет света
 
-    python3 main.py temp 4000
+    python3 main.py strip color 255 0 0
 
-    python3 main.py favorite blue
+Установить яркость света
+
+    python3 main.py strip brig 50
+
+Установить температура света
+
+    python3 main.py strip temp 4000
+
+Использование прессетов
+
+    python3 main.py strip favorite blue
